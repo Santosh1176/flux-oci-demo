@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: OCIRepository
+metadata:
+  name: bookstore-api
+  namespace: flux-system
+spec:
+  interval: 5m
+  url: oci://ghcr.io/santosh1176/flux-oci-demo/manifests/bookstore
+  ref:
+    tag: latest
