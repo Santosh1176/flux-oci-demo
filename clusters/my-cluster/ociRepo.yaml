@@ -8,6 +8,3 @@ spec:
   url: oci://ghcr.io/santosh1176/bookstore
   ref:
     tag: latest
-  provider: generic
-  secretRef:
-    name: ghcr-auth
