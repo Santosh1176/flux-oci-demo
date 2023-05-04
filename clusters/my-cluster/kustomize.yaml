@@ -13,10 +13,3 @@ spec:
   prune: true
   wait: true
   timeout: 2m
-  patches:
-    - patch: |
-        - op: add
-          path: /metadata/annotations/env
-          value: staging        
-      target:
-        name: bookstore-api
