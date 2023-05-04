@@ -8,3 +8,6 @@ spec:
   url: oci://ghcr.io/santosh1176/flux-oci-demo/manifests/bookstore
   ref:
     tag: latest
+  provider: generic
+  secretRef:
+    name: ghcr-auth
