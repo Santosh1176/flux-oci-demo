@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  url: oci://ghcr.io/santosh1176/flux-oci-demo/manifests/bookstore
+  url: oci://ghcr.io/santosh1176/bookstore
   ref:
     tag: latest
   provider: generic
