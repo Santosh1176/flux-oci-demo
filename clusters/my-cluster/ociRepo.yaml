@@ -5,6 +5,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  url: oci://localhost:5001/bookstore-api/bookstore
+  url: oci://kind-registry:5000/bookstore-api/bookstore
   ref:
     tag: latest
