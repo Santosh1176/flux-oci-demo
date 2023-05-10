@@ -4,6 +4,8 @@ metadata:
   name: bookstore-api
   namespace: flux-system
 spec:
+# This is for Local Registry only, Remove if used with GHCR/Docker
+  insecure: true
   interval: 5m
   url: oci://kind-registry:5000/bookstore-api/bookstore
   ref:
