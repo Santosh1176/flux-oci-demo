@@ -9,7 +9,7 @@ spec:
     name: bookstore-api
   interval: 30m
   retryInterval: 5m
-  path: ./
+  path: ./kustomize
   prune: true
   wait: true
   timeout: 2m
