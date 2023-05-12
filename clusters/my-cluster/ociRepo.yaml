@@ -7,6 +7,6 @@ spec:
 # This is for Local Registry only, Remove if used with GHCR/Docker
   insecure: true
   interval: 5m
-  url: oci://localhost:5000/bookstore-api/bookstore
+  url: oci://ghcr.io/santosh1176/bookstore
   ref:
     tag: latest
